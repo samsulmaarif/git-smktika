@@ -27,7 +27,7 @@ html {
 }
 
 /* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
+ul {
   list-style: none;
 }
 
@@ -305,7 +305,7 @@ slides > slide:not(.nobackground):before {
   position: absolute;
   bottom: 20px;
   left: 60px;
-  background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
+  background: url(../../images/logo-ti.png) no-repeat 0 50%;
   -webkit-background-size: 30px 30px;
   -moz-background-size: 30px 30px;
   -o-background-size: 30px 30px;
@@ -497,17 +497,48 @@ ul li ul {
 /* line 307, ../scss/default.scss */
 ul li ul li:before {
   content: '-';
-  font-weight: 600;
+  font-weight: 800;
 }
 /* line 314, ../scss/default.scss */
 ul > li:before {
   content: '\00B7';
   margin-left: -1em;
   position: absolute;
-  font-weight: 600;
+  font-weight: 800;
 }
 /* line 321, ../scss/default.scss */
 ul ul {
+  margin-top: .5em;
+}
+
+ol {
+  margin-left: 1.2em;
+  margin-bottom: 1em;
+  position: relative;
+}
+/* line 300, ../scss/default.scss */
+ol li {
+  margin-bottom: 0.5em;
+}
+/* line 303, ../scss/default.scss */
+ol li ol {
+  margin-left: 2em;
+  margin-bottom: 0;
+}
+/* line 307, ../scss/default.scss */
+ol li ol li:before {
+  /* content: '-'; */
+  font-weight: 800;
+}
+/* line 314, ../scss/default.scss */
+ol > li:before {
+  /* content: '\00B7'; */
+  margin-left: -1em;
+  position: absolute;
+  font-weight: 800;
+}
+/* line 321, ../scss/default.scss */
+ol ol {
   margin-top: .5em;
 }
 
@@ -1099,6 +1130,15 @@ article.smaller q:before, article.smaller q:after {
 /* line 733, ../scss/default.scss */
 .centered {
   text-align: center;
+}
+
+.pull-right {
+  text-align: right;
+}
+
+.put-bottom {
+  position: absolute;
+  bottom: 90px;
 }
 
 /* line 737, ../scss/default.scss */
